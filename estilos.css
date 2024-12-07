@@ -1,0 +1,80 @@
+<style>
+
+        #imagen{
+            background-image: url('Imagenes/header.jpg');
+            background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            margin: 0; /* Elimina los márgenes del navegador */
+            height: 400px; /* Asegura que el fondo cubra toda la ventana */
+            padding: 50px 0;
+        }
+        ul{
+            position: top;
+            margin-left: 50%;
+            margin-right: -20%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            font-weight: 300;
+            font-size: 40px;
+            letter-spacing: 1.3vw;
+            color: #555;
+            text-shadow: none;
+            animation: anim 1s infinite linear;
+        }
+        @keyframes anim{
+            0%{
+                color: #555;
+                text-shadow: none;
+            }
+            18%{
+                color: #555;
+                text-shadow: none;
+            }
+            20%{
+                color: #555;
+                text-shadow: 0 0 1vw #ffffff,
+                0 0 3vw #f44336;
+
+
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
